@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Day &amp; Night Carpet &amp; Upholstery Cleaning, Calgary</title>
+<meta name="description" content="Get a free carpet or upholstery cleaning quote in Calgary. Call +1 403-540-5564, open daily 9am–7pm.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a class="logo" href="index.html"><span class="mark"><i class="bi bi-stars"></i></span>Day <span>&amp;</span> Night</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><i class="bi bi-list"></i></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a class="nav-cta" href="contact.html">Get a quote</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="kicker">Contact</p>
+    <h1>Get your free quote</h1>
+    <p>Tell us what needs cleaning and we'll come back with a clear, no-obligation quote.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap contact-grid">
+    <div class="info-card">
+      <h3 style="margin-bottom:.6rem">Contact details</h3>
+      <div class="info-row"><i class="bi bi-telephone-fill"></i><div><b>Phone</b><a href="tel:+14035405564">+1 403-540-5564</a></div></div>
+      <div class="info-row"><i class="bi bi-envelope-fill"></i><div><b>Email</b><a href="mailto:daynightcarpet54@gmail.com">daynightcarpet54@gmail.com</a></div></div>
+      <div class="info-row"><i class="bi bi-clock-fill"></i><div><b>Hours</b>Open daily, 9:00am – 7:00pm</div></div>
+      <div class="info-row"><i class="bi bi-geo-alt-fill"></i><div><b>Service area</b>Calgary, Alberta &amp; surrounding communities</div></div>
+      <div class="info-row"><i class="bi bi-patch-check-fill"></i><div><b>Find us</b>Listed with the BBB and Yellow Pages</div></div>
+    </div>
+    <form class="demo-form" onsubmit="return false">
+      <label for="name">Your name</label>
+      <input id="name" type="text" placeholder="e.g. Jordan Lee">
+      <label for="phone">Phone or email</label>
+      <input id="phone" type="text" placeholder="How should we reach you?">
+      <label for="service">Service needed</label>
+      <select id="service">
+        <option>Carpet deep cleaning</option>
+        <option>Upholstery cleaning</option>
+        <option>Stairs &amp; hallways</option>
+        <option>Area rug cleaning</option>
+        <option>Move-in / move-out clean</option>
+      </select>
+      <label for="msg">Tell us about the job</label>
+      <textarea id="msg" rows="4" placeholder="Rooms, approximate sizes, any stains or pet concerns…"></textarea>
+      <button class="btn btn-teal" type="submit"><i class="bi bi-send-fill"></i> Request my quote</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Day &amp; Night Carpet &amp; Upholstery Cleaning</h4>
+        <p style="font-size:.93rem">Professional carpet, upholstery and rug cleaning across Calgary, seven days a week.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><i class="bi bi-telephone"></i> <a href="tel:+14035405564">+1 403-540-5564</a></li>
+          <li><i class="bi bi-envelope"></i> <a href="mailto:daynightcarpet54@gmail.com">daynightcarpet54@gmail.com</a></li>
+          <li><i class="bi bi-clock"></i> Open daily 9:00am – 7:00pm</li>
+          <li><i class="bi bi-geo-alt"></i> Calgary, Alberta, Canada</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© Day &amp; Night Carpet &amp; Upholstery Cleaning — design concept only.</span>
+      <span>Calgary · Open daily 9–7</span>
+    </div>
+  </div>
+</footer>
+<div class="concept-badge"><i class="bi bi-pencil-square"></i> Design concept</div>
+<script>
+document.querySelector('.nav-toggle').addEventListener('click', function(){
+  var links = document.querySelector('.nav-links');
+  var open = links.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery — Day &amp; Night Carpet &amp; Upholstery Cleaning, Calgary</title>
+<meta name="description" content="Photos of carpet, upholstery and rug cleaning work by Day & Night in Calgary.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a class="logo" href="index.html"><span class="mark"><i class="bi bi-stars"></i></span>Day <span>&amp;</span> Night</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><i class="bi bi-list"></i></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="nav-cta" href="contact.html">Get a quote</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="kicker">Gallery</p>
+    <h1>Our work around Calgary</h1>
+    <p>A look at the homes, fabrics and finishes we work with every day.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="gal">
+      <img src="images/hero.webp" alt="Bright living room with a freshly cleaned carpet">
+      <img src="images/carpet-clean.webp" alt="Carpet cleaning machine in action">
+      <img src="images/upholstery.webp" alt="Sofa upholstery being cleaned">
+      <img src="images/stairs.webp" alt="Spotless carpeted staircase">
+      <img src="images/rug.webp" alt="Clean patterned area rug">
+      <img src="images/carpet-clean.webp" alt="Extraction cleaning revealing a clean path" style="object-position:bottom">
+    </div>
+    <p style="margin-top:1.4rem;color:var(--soft);font-size:.85rem">Images are illustrative of the services offered.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="wrap">
+    <div class="quote-band">
+      <h2>Your home could look this fresh</h2>
+      <p>Open daily 9:00am – 7:00pm — get your free quote today.</p>
+      <a class="btn btn-white" href="contact.html"><i class="bi bi-clipboard-check"></i> Get a free quote</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Day &amp; Night Carpet &amp; Upholstery Cleaning</h4>
+        <p style="font-size:.93rem">Professional carpet, upholstery and rug cleaning across Calgary, seven days a week.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><i class="bi bi-telephone"></i> <a href="tel:+14035405564">+1 403-540-5564</a></li>
+          <li><i class="bi bi-envelope"></i> <a href="mailto:daynightcarpet54@gmail.com">daynightcarpet54@gmail.com</a></li>
+          <li><i class="bi bi-clock"></i> Open daily 9:00am – 7:00pm</li>
+          <li><i class="bi bi-geo-alt"></i> Calgary, Alberta, Canada</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© Day &amp; Night Carpet &amp; Upholstery Cleaning — design concept only.</span>
+      <span>Calgary · Open daily 9–7</span>
+    </div>
+  </div>
+</footer>
+<div class="concept-badge"><i class="bi bi-pencil-square"></i> Design concept</div>
+<script>
+document.querySelector('.nav-toggle').addEventListener('click', function(){
+  var links = document.querySelector('.nav-links');
+  var open = links.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+</body>
+</html>
