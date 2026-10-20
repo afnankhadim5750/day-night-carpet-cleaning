@@ -127,3 +127,19 @@ footer.site a:hover{color:#7fd1cf}
   .quote-band{padding:2rem 1.4rem}
   .hours-pill{font-size:.8rem;padding:.5rem 1rem}
 }
+
+/* --- homepage enrichment --- */
+.faq-list{display:grid;gap:.9rem;max-width:820px;margin:0 auto}
+.faq-item{background:#fff;border:1px solid var(--line);border-radius:16px;padding:1.1rem 1.3rem;text-align:left}
+.faq-item summary{font-weight:700;color:var(--ink);cursor:pointer}
+.faq-item p{color:var(--soft);font-size:.94rem;margin-top:.6rem}
+.faq-item a{color:var(--teal);font-weight:700}
+.visit-band{background:var(--teal-soft);border:1px solid var(--line);border-radius:22px;padding:2.6rem;display:grid;grid-template-columns:1.2fr .8fr;gap:2.2rem;align-items:center}
+.visit-band h2{font-size:1.85rem;margin-bottom:.4rem}
+.visit-list{list-style:none;margin-top:1.2rem;display:grid;gap:1rem}
+.visit-list li{display:flex;gap:.8rem;align-items:flex-start}
+.visit-list i{color:var(--teal);font-size:1.2rem;margin-top:.15rem}
+.visit-list b{display:block;font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-d);margin-bottom:.1rem}
+.visit-actions{display:flex;flex-direction:column;gap:.9rem;align-items:stretch}
+.visit-actions .btn{justify-content:center}
+@media(max-width:900px){.visit-band{grid-template-columns:1fr;padding:2rem 1.4rem}}

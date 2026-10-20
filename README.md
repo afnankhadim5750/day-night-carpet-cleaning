@@ -1,6 +1,6 @@
 # Day & Night Carpet & Upholstery Cleaning
 
-Demo website concept for **Day & Night Carpet & Upholstery Cleaning** — Calgary, Canada.
+Demo website concept for **Day & Night Carpet & Upholstery Cleaning** — Calgary, AB.
 
 Live preview: https://day-night-carpet-cleaning-mockup.netlify.app
 
